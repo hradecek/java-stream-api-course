@@ -1,0 +1,59 @@
+Lecture 1: Introduction to Java Streams
+
+Overview of Java Streams
+Basic concepts and terminology
+Benefits of using Streams
+Creating and accessing Streams
+Stream pipelines and operations
+
+Lecture 2: Stream Operations - Intermediate Operations
+
+Filtering elements with filter()
+Mapping elements with map()
+FlatMap operation
+Sorting elements with sorted()
+Limiting and skipping elements
+Distinct()
+
+Lecture 3: Stream Operations - Terminal Operations
+
+Reducing elements with reduce()
+Collecting elements with collect()
+Finding elements with findFirst(), findAny(), and anyMatch()
+Matching elements with allMatch(), noneMatch(), and anyMatch()
+Performing side-effects with forEach()
+Lecture 4: Stream Operations - Advanced Techniques
+
+Grouping elements with groupingBy()
+Partitioning elements with partitioningBy()
+Combining elements with flatMap()
+Mapping and reducing with collect() and toMap()
+Custom collectors and supplier functions
+
+Lecture 5: Parallel Streams and Performance Optimization
+Introduction to parallel streams
+Parallelizing operations with parallel() and sequential()
+Performance considerations and trade-offs
+Optimizing stream performance
+Stream performance tips and best practices
+Lecture 6: Stream API Enhancements
+
+
+New features and enhancements in Java Stream API
+Stream API improvements in Java 9, 10, and beyond
+Enhanced support for nullable elements with Optional
+Stream API updates in future Java versions
+Lecture 7: Advanced Stream Concepts and Use Cases
+
+Stream operations with I/O and file handling
+Stream operations with database access
+Combining Streams and lambda expressions
+Stream composition and chaining
+Real-world examples and case studies
+Lecture 8: Stream Best Practices and Tips
+
+Common pitfalls and mistakes to avoid
+Best practices for efficient Stream usage
+Error handling and exception handling in Streams
+Debugging and troubleshooting Streams
+Recap, Q&A, and final remarks

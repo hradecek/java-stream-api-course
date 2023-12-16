@@ -1,0 +1,41 @@
+Introductory Video Script:
+
+Introduction to Java Streams:
+"Welcome to 'Mastering Java Streams: Practical Guide.'
+In this course, we'll dive deep into one of the most powerful and versatile Java features - StreamsAPI.
+But what are Java Streams? Let's find out."
+
+Why Java Streams?
+"Java Streams were introduced to address the need for a more elegant and expressive way of working with data and collections.
+They are a key component in shifting your code from imperative to functional style, where you express what you want to do with data, not how to do it."
+
+External vs. Internal Iteration:
+"In imperative style of coding for example by using for-each loops, you explicitly control each step of the iteration.
+In contrast, Java Streams encourage a functional style, where the iteration is abstracted away, and you express what you want to do with the data and letting the Streams API handle the 'how'-part."
+
+Benefits of Internal Iteration:
+"Let's take a look at the comparison of both approches in simple.
+Consider filtering a list of numbers to find all even ones - this is a really book example.
+
+In an imperative style, it might look like this:
+
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+List<Integer> evenNumbers = new ArrayList<>();
+for (int number : numbers) {
+    if (number % 2 == 0) {
+        evenNumbers.add(number);
+    }
+}
+
+Now, in a functional style with Java Streams, you can achieve the same result more elegantly:
+
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+List<Integer> evenNumbers =
+ numbers.stream()
+        .filter(n -> n % 2 == 0)
+        .collect(Collectors.toList());
+
+Course Overview:
+In this course we'll cover the basics of Java Streams, dive into all operations Streams API offers, and explore advanced concepts like parallel streams.
+So let's dive in.
+
